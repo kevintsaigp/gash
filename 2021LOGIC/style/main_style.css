@@ -1,0 +1,1892 @@
+@charset "utf-8";
+@import url("reset.css");
+
+
+/* ========== 區塊 =========== */
+/* ---- particles.js container ---- */
+
+ 
+
+body{
+	background:#e3dbcd  url(../images/top.png) center 0px no-repeat;
+	background-size: 100% auto;
+	color: #5d0569;
+	font-size: 16px;
+	text-align: center;
+    
+} 
+a{ 
+	color: #f28900;
+	-webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out;
+}
+a:hover{ 
+	color: #000;
+}
+canvas{
+  
+}
+article{ position: relative; display: block\9; width: 100%; text-align: center; overflow: visible;  }
+section{ position: relative; display: block\9; width: 100%; max-width: 1300px; margin: -3% auto auto auto; }
+                                                    /*90%*/
+ 
+
+h3{ font-weight: normal; }
+h3 img{ }
+
+
+/* ========== header =========== */
+header{
+	width: 100%;
+	min-width: 100%;
+	height: 37px;
+	line-height: 14px;
+	text-align: center;
+	background-color: #424242;
+	z-index: 100;
+	display: block\9;
+	margin-bottom: -2px;
+	position: relative;
+}
+header table{
+	width: 800px;
+	margin: 0 auto;
+}
+.mobile_menu{display: none;}
+
+.p_view{
+    display: block;
+}
+.m_view{
+    display: none;
+}
+
+/* -----------------------------------------------------
+A 主視覺 .brand_kv
+------------------------------------------------------- */ 
+.brand_kv section{
+    max-width: 100%;
+	padding-bottom: 36%;
+}
+ 
+.brand_kv .title img,.brand_kv .title_m img, .brand_kv h2 img{
+	width: 100%;
+}
+.brand_kv .title{ /*大標  天天超級品牌日*/
+	position: absolute;
+    display: block;
+    left: 50%;
+    top: 0;
+    margin-left: -28%;
+    margin-top: -4.5%;
+    width: 55%;
+}
+.brand_kv .title_m,
+.product_list_m,
+.page_main .product_block_list li .pic_block .left_m,
+.page_main .product_block_list li .pic_block .right_group_m,
+.page_main .product_block_list li .pic_block5 .left_a_m,
+.page_main .product_block_list li .pic_block5 .center_b_m,
+.page_main .product_block_list li .pic_block5 .right_c_group_m,
+.page_main .product_block_list li .pic_block5 .right_c_group_m a,
+.page_main .product_block_list li .pic_block6 .left_a_m,
+.page_main .product_block_list li .pic_block6 .center_b_m,
+.page_main .product_block_list li .pic_block6 .right_c_group_m,
+.page_main .product_block_list li .pic_block6 .right_c_group_m a,
+.page_main .product_block_list li .pic_block7 .leftp_m,
+.page_main .product_block_list li .pic_block7 .rightp_m,
+.page_main .product_block_list li .pic_block7 .rightp_m a,
+.page_main .product_block_list li .pic_block77 .leftp_m,
+.page_main .product_block_list li .pic_block77 .rightp_m,
+.page_main .product_block_list li .pic_block77 .rightp_m a,
+.page_main .product_block_list li .pic_block8 .left_a_m,
+.page_main .product_block_list li .pic_block8 .center_b_m,
+.page_main .product_block_list li .pic_block8 .right_c_group_m,
+.page_main .product_block_list li .pic_block9 .left_a_m,
+.page_main .product_block_list li .pic_block9 .center_b_m,
+.page_main .product_block_list li .pic_block9 .right_c_group_m{
+    display: none;
+}
+  
+
+
+
+.brand_kv .bb{
+    position: absolute; 
+    max-width: 1300px;
+    z-index: 99;
+    top: 0;
+    left:  0%;
+    right: 0;
+    top: 0;
+    margin-top: 22%;
+    margin-left:30%;
+}
+.brand_kv .bb{
+    display: inline-block;
+}
+
+.brand_kv .bb .coupon_red {
+    display: block;
+    width: 35%;
+    float: left;
+    margin-top: 2%;
+    margin-left: -7%;
+}
+.brand_kv .bb .coupon_red_m {
+    display: none;
+    width: 25%;
+    float: left;
+    margin-top: 14%;
+    margin-left: 5%;
+}
+.brand_kv .bb .coupon_blue {
+    width: 35%;
+    float: left;
+    right: 0;
+    margin-top: 1%;
+    margin-left: -1%;
+}
+.brand_kv .bb .coupon_buy {
+    width: 50%;
+    float: left;
+    margin-top: 34%;
+    margin-left: 5%;
+}
+
+.brand_kv .bb .coupon_red img,
+.brand_kv .bb .coupon_red_m img,
+.brand_kv .bb .coupon_blue img,
+.brand_kv .bb .coupon_buy img { 
+    width: 100%; 
+}
+
+/*************coupon
+.brand_kv h2{ 
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin:23% auto auto -37%;
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    overflow: hidden;
+}
+
+ */
+
+/*************coupon2 red*/
+
+
+
+
+
+.pic_block6 p{
+    font-size: 24px;
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.brand_kv h2 img{
+    width: 100%;
+}
+
+ 
+.list_notice{
+    background-color: #fbd624;
+    border-radius: 30px;
+    border: #f28900 solid 3px;
+    
+}
+
+
+
+
+/* -----------------------------------------------------
+B 品牌們 .page_main
+------------------------------------------------------- */ 
+.page_main{   
+	background: url(../images/form_bg.png) top ;
+    background-repeat: repeat;
+    background-size:100% auto ; 
+    
+    margin-top: 22%;
+}
+
+.page_main  h3 img{
+	width: 20%;
+}
+.page_main  h3 img.picc{
+    width: 72%;
+}
+
+.event{
+	width: 100%;
+    max-width: 95%;
+    
+    margin-bottom: 3%;
+
+}
+
+
+
+
+.button_open{ 
+    right: 0;
+    padding-top:16%;
+}
+.e2bg{
+    width: 100%;
+    border: 5px solid yellow;
+    display:block;
+    margin:0 auto;
+    padding:10%;
+    max-width: 95%; 
+    background: url(../images/form_bg2.png) center center no-repeat;
+    background-size: 90% auto;
+}
+.page_main .product_block_list_m{
+    text-align: center; 
+}
+.page_main .product_block_list_m ul li{
+    text-align: center; 
+    width: 33%;
+    margin: 1.2% auto;
+    display: inline-block;
+  
+    height: auto;
+    margin: 0.1% 0.1%;
+    /* padding: 0.2%; */
+    max-width: 140px;
+}
+.page_main .product_block_list{
+    
+    text-align: center; 
+}
+.page_main .product_block_list div{
+    display: block;
+    position: relative;
+    text-align: center; 
+}
+.page_main .product_block_list li{    
+    text-align: center;
+    /* background: linear-gradient(to bottom, #17084d, #011f5f); */   
+}
+.page_main .product1 { 
+   /* margin:5% auto 10% auto; */
+}
+.page_main .product2{
+    margin:46% auto 0% auto;   
+    padding: 2% 1%; 
+    background: url(../images/product_block_bg1.png) center center no-repeat;
+    background-size: 99% auto; 
+}
+.page_main .product3{
+    margin:1% auto 5% auto;   
+    padding: 2% 1%; 
+    background: url(../images/product_block_bg2.png) center center no-repeat;
+    background-size: 99% auto; 
+}
+.page_main .product4{ 
+    margin:-5% auto 3% auto;
+}
+
+
+/*---圖片設定--*/
+.page_main .product_block_list .pic_block img,
+.page_main .product_block_list .pic_block4 img,
+.page_main .product_block_list li .pic_block5 img,
+.page_main .product_block_list li .pic_block6 img,
+.page_main .product_block_list li .pic_block66 img,
+.page_main .product_block_list li .pic_block7 img,
+.page_main .product_block_list li .pic_block77 img,
+.page_main .product_block_list li .pic_block77 .rightp_m a img,
+.page_main .product_block_list li .pic_block8 img,
+.page_main .product_block_list li .pic_block9 img,
+.page_main .item_pic_title_bg img{
+    width: 100%;  
+}
+
+
+
+
+
+
+
+/*---------------------------------活動商品 1 -------------------------------*/
+.page_main .product_block_list li .pic_block{
+    display: block;
+    position: absolute;    
+    width: 100%;  
+    left: 0; 
+    right: 0;
+    margin:2% auto 4% auto;
+} 
+.page_main .product_block_list li .pic_block .left{
+    float: none;
+    width: 100%;
+    /*
+    float: left;
+    width: 61.5%;
+    */
+  
+}
+.page_main .product_block_list li .pic_block .right_group{
+    float: none;
+    width: 100%;
+    /*
+    float: left;
+    width: 37%;
+    */
+}
+/*---------------------------------活動商品 1 -結束------------------------------*/
+
+/*---------------------------------活動商品 4 -------------------------------*/
+.page_main .product_block_list li .pic_block4{
+    display: block;
+    position: absolute;    
+    /*
+    top: 39%;
+    margin:2% auto 1% auto;
+    
+    */
+    width: 100%;  
+    left: 0; 
+    right: 0;
+}
+ 
+.page_main .product_block_list li .pic_block4 .pic_atm{ 
+    width: 100%;
+    padding: 0.5% auto;
+} 
+/*---------------------------------活動商品 4 -結束------------------------------*/
+
+
+/*---------------------------------活動商品 2 -------------------------------*/
+.page_main ul li{
+    display: inline-block;     
+    width: 16%;
+    height: auto;
+    margin: 1.2% 1.5% 2% 1.8%;
+    /* 1% 1.5% 1% 2%;*/
+
+    /*  margin: 3% 3.5% 0.1% 4%;
+    margin: 0% 3.5% 0.1% 4%;
+    padding: 0.2%; */
+}
+
+.page_main ul li .left{   width: 100%; }
+.page_main ul li .left img{ width: 100%; margin: 0.1%;}
+/*--
+.page_main ul li .right{  
+    width: 75%; 
+    border-radius: 33px;
+    height: auto; 
+    color: #fff;
+    margin: 0px auto 1% auto; 
+    border: 2px solid #00fff0;
+    background-color: #a51f24;     
+        border: 2px solid #eee4ca; 
+    background-color: #081b3b;
+    cursor: pointer;
+}--*/
+.page_main ul li .right .wordpurple{
+    /*- color: #f153ce; -
+    color:#ffff00;
+    font-family: Century Gothic,Microsoft JhengHei;
+    font-size: 1.4em;  
+    font-weight: bold;  
+    text-shadow: 2px 1px 10px white;
+    */
+    padding:10px;
+    line-height: 40px;
+}
+.page_main ul li .right .wordpurple_s{
+    color: #f153ce;
+    font-family:Century Gothic;
+    font-size: 0.7em;
+    vertical-align: 10%;
+    letter-spacing: 1px;
+}
+.page_main ul li .right .wordblue{
+    color: #2bedf6;
+    font-family:Century Gothic,Microsoft JhengHei;
+    font-size: 1.3em;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+}
+.page_main ul li .right .wordblue img{
+    width: 93%;
+}
+.page_main ul li .right .wordblue_s{
+    color: #2bedf6;
+    font-family:Century Gothic;
+    font-size: 0.6em;
+    vertical-align: 15%;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.page_main ul li .right .wordblue_s2{
+    color: #2bedf6;
+    font-family:Century Gothic;
+    font-size: 0.6em;
+    vertical-align: 15%;
+    letter-spacing: -2px;
+    font-weight: bold;
+}
+.page_main ul li .right .wordblue_1104 {
+    color: #2bedf6;
+    font-family: Century Gothic,Microsoft JhengHei;
+    font-size: 1.3em;
+    letter-spacing: -2px; 
+   font-size: 1.1em;
+}
+.page_main ul li .right .wordblue_dis{
+    color: #2bedf6;
+    font-family:Century Gothic,Microsoft JhengHei;
+    font-size: 1em;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+}
+
+.page_main ul li .right .wordblue_big{
+    color: #2bedf6;
+    font-family:Century Gothic;
+    font-size: 1.45em;
+    vertical-align: -6%;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.page_main ul li .right .wordblue_big150{
+    color: #2bedf6;
+    font-family:Century Gothic;
+    font-size: 1.45em;
+    vertical-align: -6%;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.page_main ul li a img{ width: 100%; }
+.page_main ul li a{ 
+	display: block; 
+	/*--border: 2px solid #834aa9; --*/
+    width: 100%;
+    padding: 2px; 
+	-moz-box-sizing: border-box; 
+	webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+/*---------------------------------攻略 1 -------------------------------*/ 
+
+.page_main .product_block_list li .pic_block5{
+    display: block;
+    position: relative; 
+    width: 100%;
+    /* top: 0; */
+    /* top: 99%; */
+    padding: 6% 0.0001% 0 0.0001%;
+
+    
+    /* padding: 16% 0.0001%;
+    margin: 3% auto 5% auto; */
+    left: 0;
+    right: 0;
+} 
+
+.page_main .product_block_list li .pic_block6{
+    display: block;
+    position: relative; 
+    width: 100%;
+    padding: 0% 0.0001% 0% 0.0001%;
+    /* top: 44%; */
+    
+    /*padding: 35% 0.0001% 1% 0.0001%;
+     top: 99%; */
+    /* margin: 5% auto 5% auto; */
+    left: 0;
+    /* right: 0; */
+}  
+.page_main .product_block_list li .pic_block66{
+    display: block;
+    position: relative; 
+    width: 100%;
+    padding: 0% 0.0001% 0% 0.0001%;
+    /* top: 44%; 
+    padding: 54% 0.0001% 1% 0.0001%;*/
+    
+    /* top: 99%; */
+    /* margin: 5% auto 5% auto; */
+    left: 0;
+    /* right: 0; */
+}  
+.page_main .product_block_list li .pic_block5 .left_a,
+.page_main .product_block_list li .pic_block6 .left_a,
+.page_main .product_block_list li .pic_block66 .left_a{
+    float: left;
+    width: 25%;
+    padding-right: 0.5%;
+}
+.coupon_red_m{
+    display: none;
+}
+.page_main .product_block_list li .pic_block5 .left_a_m,
+.page_main .product_block_list li .pic_block6 .left_a_m,
+.page_main .product_block_list li .pic_block66 .left_a_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block5 .center_b,
+.page_main .product_block_list li .pic_block6 .center_b,
+.page_main .product_block_list li .pic_block66 .center_b{
+    float: left;
+    width: 19.2%;    
+    margin:0 auto 0% -0.5%;   
+}
+.page_main .product_block_list li .pic_block5 .center_b_m,
+.page_main .product_block_list li .pic_block6 .center_b_m,
+.page_main .product_block_list li .pic_block66 .center_b_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block5 .right_c_group{
+    float: left;
+    width: 19.5%;
+    padding: 2% 1%; 
+    margin:1.2% auto auto auto; 
+    background: url(../images/part2_1_3.png) center center no-repeat;
+    background-size: 99% auto; 
+}
+.page_main .product_block_list li .pic_block5 .right_c_group_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block6 .right_c_group{
+    float: left;
+    width: 19.5%;
+    padding: 6% 1%; 
+    margin:-0.5% auto auto auto; 
+    background: url(../images/part2_2_3.png) center center no-repeat;
+    background-size: 99% auto; 
+}
+.page_main .product_block_list li .pic_block6 .right_c_group_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block66 .right_c_group{
+    float: left;
+    width: 19.5%;
+    padding: 6% 1%; 
+    margin:-0.5% auto auto auto; 
+    background: url(../images/part2_2_3.png) center center no-repeat;
+    background-size: 99% auto; 
+}
+.page_main .product_block_list li .pic_block66 .right_c_group_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block5 .right_c_group a{
+    display: block;
+    float: none;
+    width: 100%;
+}
+.page_main .product_block_list li .pic_block5 .right_c_group_m a{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block6 .right_c_group a{  /*即刻登錄*/
+    display: block;
+    position: relative;
+    width: 60%;
+    margin:auto;
+    height: auto;
+}
+.page_main .product_block_list li .pic_block6 .right_c_group_m a{  /*即刻登錄*/
+    display: none; 
+}
+.page_main .product_block_list li .pic_block66 .right_c_group a{  /*即刻登錄*/
+    display: block;
+    position: relative;
+    width: 60%;
+    margin:auto;
+    height: auto;
+}
+.page_main .product_block_list li .pic_block66 .right_c_group_m a{  /*即刻登錄*/
+    display: none; 
+}
+/*---------------------------------攻略 1 -結束------------------------------*/
+
+
+/*---------------------------------攻略 2 -------------------------------*/
+.btn01{
+    padding: 0% 19%;
+    margin-top:-10% ;
+}
+
+.btn02{
+    padding: 0% 19%;
+    margin-top:-12% ;
+}
+
+.cardd img{
+
+    width: 100%;
+
+}
+
+
+.item_bg{
+    background: url(../images/item_bg.png) center center ;
+    background-size: cover;
+}
+.item_bg2{
+    margin-top: 70%;
+}
+.page_main .product_block_list li .pic_block7,
+.page_main .product_block_list li .pic_block77{
+    display: block;
+    position: relative; 
+    width: 100%;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    padding: -1% 0.0001% 0% 0.0001%;
+    /*
+    padding: 73% 0.0001% 1% 0.0001%;
+    */
+} 
+
+.page_main .product_block_list li .pic_block7 .leftp,
+.page_main .product_block_list li .pic_block77 .leftp{
+    float: left;
+    width: 79%;
+    padding-right: 0.5%;
+}
+.page_main .product_block_list li .pic_block7 .leftp_m
+.page_main .product_block_list li .pic_block77 .leftp_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block7 .rightp,
+.page_main .product_block_list li .pic_block77 .rightp{
+    float: left;
+    width: 20%;
+    margin-top: 0;
+    padding: 1% 1% 18% 1%;
+    margin-left: -1%;
+    background: url(../images/part3_1_2.png) center center no-repeat;
+    background-size: 99% auto; 
+}
+@media screen and ( max-width: 1100px ){
+    .page_main .product_block_list li .pic_block7 .rightp, .page_main .product_block_list li .pic_block77 .rightp {
+    padding: 0 1% 18% 1%;
+    }
+}
+
+.page_main .product_block_list li .pic_block7 .rightp_m,
+.page_main .product_block_list li .pic_block77 .rightp_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block7 .rightp a,
+.page_main .product_block_list li .pic_block77 .rightp a{
+    padding-top: 10px;
+    width: 87%;
+}
+.page_main .product_block_list li .pic_block7 .rightp_m a,
+.page_main .product_block_list li .pic_block77 .rightp_m a{
+    display: none; 
+}
+/*---------------------------------攻略 2 -結束------------------------------*/
+
+
+
+
+/*---------------------------------攻略 3 -------------------------------*/
+.page_main .product_block_list .h3_title{
+    top:0%;
+    margin-top:5%;
+}
+
+.page_main .product_block_list li .pic_block8{
+    display: block;
+    position:relative; 
+    width: 100%;
+    padding: 0% 0.0001% 0% 0.0001%;
+
+
+    
+    /* padding: 111% 0.0001% 1% 0.0001%;
+    margin: 57% auto 1% auto; */
+    /* top: 81%; */
+    left: 0;
+    right: 0;
+} 
+
+.page_main .product_block_list li .pic_block9{
+    display: block;
+    position: relative; 
+    width: 100%;
+    padding: 0% 0.0001% -1% 0.0001%;
+    /* top: 44%;
+    padding: 130% 0.0001% 5% 0.0001%; */
+    
+    /* margin: 19% auto 5% auto; */
+    left: 0;
+    right: 0;
+} 
+
+.page_main .product_block_list li .pic_block8 .left_a,
+.page_main .product_block_list li .pic_block9 .left_a{
+    float: left;
+    width: 60%;
+    padding-right: 0.5%;
+}
+.page_main .product_block_list li .pic_block8 .left_a_m,
+.page_main .product_block_list li .pic_block9 .left_a_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block8 .center_b,
+.page_main .product_block_list li .pic_block9 .center_b{
+    float: left;
+    width: 19.2%;    
+    margin:-0.2% auto 0% -0.5%;   
+}
+.page_main .product_block_list li .pic_block8 .center_b_m,
+.page_main .product_block_list li .pic_block9 .center_b_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block8 .right_c_group{
+    float: left;
+    width: 19.5%;
+    padding: 1.5% 1%; 
+    margin:-0.8% auto auto auto; 
+    background: url(../images/part4_bg.png) center center no-repeat;
+    background-size: 99% auto; 
+}
+.page_main .product_block_list li .pic_block8 .right_c_group_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block9 .right_c_group{
+    float: left;
+    width: 19.5%;
+    padding: 6% 1%; 
+    margin:-1% auto auto auto; 
+    background: url(../images/part4_bg.png) center center no-repeat;
+    background-size: 99% auto; 
+}
+.page_main .product_block_list li .pic_block9 .right_c_group_m{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block8 .right_c_group a{
+    display: block;
+    float: none;
+    padding: 21% 1%; 
+    width: 100%;
+}
+.page_main .product_block_list li .pic_block8 .right_c_group_m a{
+    display: none; 
+}
+.page_main .product_block_list li .pic_block9 .right_c_group a{  /*即刻登錄*/
+    display: block;
+    position: relative;
+    width: 60%;
+    margin:auto;
+    height: auto;
+} 
+.page_main .product_block_list li .pic_block9 .right_c_group_m a{  /*即刻登錄*/
+    display: none; 
+} 
+/*---------------------------------攻略 3 -結束------------------------------*/
+
+
+
+
+/****************************************item*/
+.item1_bg{
+    width: 100%;
+    max-width: 100%;
+    padding: 2% 0.0001%;
+    background: url(../images/purple_bg.png) center center repeat;
+    background-size: 100% auto;
+}
+.item2_bg{
+    width: 100%;
+    max-width: 100%;
+    padding: 4% 0.0001% 5% 0.0001%;
+    /* 
+    background: url(../images/blue_bg.png) center center no-repeat; */
+    background-size: 100% auto;
+}
+
+.item2_bg .item_pic_title_bg{  
+    width: 60%;
+    padding-bottom: 4%;
+    margin: 0 auto; 
+}
+.item2_bg .item_pic_title_bg img{
+    width: 100%;
+} 
+ 
+
+/****************************************item2*/
+.date_item{ 
+    padding: 1% 0px;
+    margin:2.2% auto 0 auto;
+    /*margin:2.2% auto 0 auto;*/
+}
+.event,
+.date_item1,
+.date_item2{ 
+    padding: 6% 0px;
+    margin:0.5% auto 0 auto;
+    /*margin:2.2% auto 0 auto;*/
+}
+.cardd img{
+
+    width: 100%;
+}
+
+
+footer{ 
+    font-size: 1rem;
+    padding: 2% 0;
+    background: #b27719;
+}
+
+.notice{
+    margin: 0 15%;
+}
+
+
+
+/* -----------------------------------------------------
+C UI
+------------------------------------------------------- */ 
+.gotop{
+    z-index: 999;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+.gotop a{
+	display: block;
+    width: 55px;
+    height: 55px;
+    background: #57cde0 url(../images/bt_up01.png) center center no-repeat;
+    /* border-right: 5px solid #d35b8f; */
+    /* border-bottom: 4px solid #0069c7; */
+}
+
+.gotop a:hover{
+    width: 55px;
+    height: 55px;
+	background: #57cde0 url(../images/bt_up01.png) center top no-repeat;
+}
+
+
+
+
+
+/*******************************************  inline  *****************************/
+
+/******************************************* 動畫  *****************************/
+.animation_element{ -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+.animation_element2{ -webkit-transition: all 2s ease-out; transition: all 2s ease-out; }
+
+@-webkit-keyframes fR02 {
+  0% { transform:rotate(0deg);}
+  25% { transform:rotate(3deg);}
+  50% { transform:rotate(0deg);}
+  75% { transform:rotate(-3deg);}
+  100% { transform:rotate(0deg);}
+}
+@keyframes fR02 {
+  0% { transform:rotate(0deg);}
+  25% { transform:rotate(3deg);}
+  50% { transform:rotate(0deg);}
+  75% { transform:rotate(-3deg);}
+  100% { transform:rotate(0deg);}
+}
+
+
+.apppp{
+    display: none;
+}
+
+/****************************************************************
+	MOBILE
+****************************************************************/
+@media screen and ( max-width: 768px ){
+
+/* ========== 共用區塊 =========== */
+html, body{ 
+	min-width: 320px;
+	overflow: auto;
+	overflow-x: hidden;
+	width: 100%;
+	-webkit-overflow-scrolling: touch;
+	font-size: 85%;
+}
+body{
+	background:#e3dbcd   url(../images/top_768.png) center 0px no-repeat;
+    /*  background: #170245 url(../images/#.jpg) center 0px no-repeat fixed;*/
+	background-size: 100% auto; 
+} 
+article{ position: relative; display: block\9; width: 100%; min-width: 320px; -webkit-overflow-scrolling: touch;}
+section{ position: relative; display: block\9; width: 99%; margin: 0 auto; -webkit-overflow-scrolling: touch;}
+.brand_kv section{
+  
+	padding-bottom: 26%;
+}
+.notice{
+    margin: 0 2%;
+}
+
+
+.webbb{
+    display: none;
+}
+.apppp{
+    display: grid;
+}
+.apppp img{
+    width: 100%;
+}
+/* ========== 00 header =========== */
+header{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.p_view{
+    display: none;
+}
+.m_view{
+    display: block;
+}
+
+
+.btn01{
+    padding: 0% 19%;
+    margin-top:-12% ;
+}
+/* -----------------------------------------------------
+A 主視覺 #main  mobile
+------------------------------------------------------- */ 
+.brand_kv section{
+	padding: 2%;
+}
+.brand_kv .title{
+   display: none;
+}
+ 
+.brand_kv .title_m{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: -9% 0 5% 10%;
+    width: 82%;
+}
+.brand_kv h2{
+    position: static;
+    margin: 58% 3% auto 12%;
+    width: 70%;
+}
+ 
+
+.brand_kv .bb {
+    position: absolute;
+    max-width: 1300px;
+    z-index: 99;
+    top: 0;
+    left: 0%;
+    right: 0;
+    top: 0;
+    margin-top: 67%;
+    margin-left: 3%;
+}
+.brand_kv .bb .coupon_red {
+    display: none;
+    width: 50%;
+    float: left;
+    margin-top: 8%;
+    margin-left: -1%;
+}
+.brand_kv .bb .coupon_red_m {
+    display: block;
+    width: 51%;
+    float: left;
+    margin-top: -9%;
+    margin-left: 1%;
+}
+
+.brand_kv .bb .coupon_blue {
+    width: 51%;
+    float: left;
+    right: 0;
+    margin-top: -12%;
+    margin-left: -3%;
+}
+.brand_kv .bb .coupon_buy {
+    width: 50%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 24%;
+}
+
+/* -----------------------------------------------------
+B 品牌們 .page_main (mobile)
+------------------------------------------------------- */ 
+
+.page_main {
+    background: url(../images/form_bg2.png) top repeat;
+    background-size: 100% auto ;
+    padding-top: 15%;
+    margin-top: 66%;
+}
+.page_main  h3{
+
+    background-size: 90% auto;
+}
+.page_main  h3 img{
+	width: 45%;
+}
+.page_main  h3 img.picc{
+    width: 95%;
+}
+.event{
+    width: 100%; 
+    max-width: 99%;
+    background-size: 106% auto;
+}
+.product_list_m{
+    display: block;
+    position: relative;
+    left: 1%;
+    margin-top:202%;
+    background: url(../images/blue_758.png) center top no-repeat;
+    background-size:  100% auto;
+}
+.page_main ul li{
+    width: 37%;
+    margin: -3.8% 6% -4% 5%;
+    padding-top: 0%;
+    padding-bottom: 7%;
+    min-width: 180px;
+}
+.page_main ul li a{
+    display: block;
+    width: 100%;
+    margin: 8% auto -7% auto;
+    padding-bottom: 4%;
+    padding: -1%; 
+    -moz-box-sizing: border-box;
+    webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.page_main ul li .right{
+    padding-top: 1.5%;
+}
+.page_main ul li .right .wordpurple{
+    color: #f153ce;
+    font-family:Century Gothic;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+.page_main ul li .right .wordpurple_s{
+    color: #f153ce;
+    font-family:Century Gothic;
+    font-size: 0.7em;
+    vertical-align: 10%;
+    letter-spacing: 1px;
+}
+.page_main ul li .right .wordblue{
+    color: #2bedf6;
+    font-family:Century Gothic,Microsoft JhengHei;
+    font-size: 1.85em;
+    letter-spacing: -1px;
+    line-height: 1.3em;
+}
+
+.page_main ul li .right .wordblue img{
+    width: 77%;
+}
+.page_main ul li .right .wordblue_s{
+    color: #2bedf6;
+    font-family:Century Gothic;
+    font-size: 0.6em;
+    vertical-align: 15%;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.page_main ul li .right .wordblue_big{
+    color: #2bedf6;
+    font-family:Century Gothic;
+    font-size: 1.45em;
+    vertical-align: -6%;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.product2,
+.product3,
+.page_main .product_block_list li .pic_block .left,
+.page_main .product_block_list li .pic_block .right_group,
+.page_main .product_block_list li .pic_block5 .left_a,
+.page_main .product_block_list li .pic_block5 .center_b,
+.page_main .product_block_list li .pic_block5 .right_c_group,
+.page_main .product_block_list li .pic_block5 .right_c_group a,
+.page_main .product_block_list li .pic_block6 .left_a,
+.page_main .product_block_list li .pic_block6 .center_b,
+.page_main .product_block_list li .pic_block6 .right_c_group,
+.page_main .product_block_list li .pic_block66 .left_a,
+.page_main .product_block_list li .pic_block66 .center_b,
+.page_main .product_block_list li .pic_block66 .right_c_group,
+.page_main .product_block_list li .pic_block5 .right_c_group a,
+.page_main .product_block_list li .pic_block7 .leftp,
+.page_main .product_block_list li .pic_block7 .rightp,
+.page_main .product_block_list li .pic_block7 .rightp a,
+.page_main .product_block_list li .pic_block77 .leftp,
+.page_main .product_block_list li .pic_block77 .rightp,
+.page_main .product_block_list li .pic_block77 .rightp a,
+.page_main .product_block_list li .pic_block8 .left_a,
+.page_main .product_block_list li .pic_block9 .left_a,
+.page_main .product_block_list li .pic_block8 .center_b,
+.page_main .product_block_list li .pic_block9 .center_b,
+.page_main .product_block_list li .pic_block8 .right_c_group,
+.page_main .product_block_list li .pic_block9 .right_c_group {
+    display: none;
+}
+
+.page_main .product_block_list li .pic_block .left_m,
+.page_main .product_block_list li .pic_block .right_group_m{
+    display: block;
+}
+
+.right_group_m{
+    padding: 0 10%;
+}
+.page_main .product_block_list li .pic_block4 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 59%;
+    margin-top: -56%;
+}
+
+
+.page_main .product_block_list li .pic_block5_padding_m{
+    padding: 16% 0.0001%;
+}
+.page_main .product_block_list li .pic_block5 .left_a_m,
+.page_main .product_block_list li .pic_block6 .left_a_m,
+.page_main .product_block_list li .pic_block66 .left_a_m{
+    display: block;
+    float: left;
+   width: 40%;
+    margin-top: 5%;
+    margin-left: 7%;
+    padding: 0 0.5%;
+}
+.pic_block6 p{
+
+font-size: 18px;
+}
+.page_main .product_block_list li .pic_block5 .center_b_m,
+.page_main .product_block_list li .pic_block6 .center_b_m,
+.page_main .product_block_list li .pic_block66 .center_b_m {
+    display: block;
+    float: left;
+    width: 39%;
+    margin: 6px auto 0% -0.5%;
+}
+.page_main .product_block_list li .pic_block5 .right_c_group_m {
+    display: block;
+    float: left;
+    width: 40%;
+    padding: 1% 1%;
+    margin: -1.8% auto auto -1%;
+    background: url(../images/part2_1_3_m.png) center center no-repeat;
+    background-size: 99% auto;
+}
+.page_main .product_block_list li .pic_block5 .right_c_group_m a{
+    display: inline-block;
+    float: left;
+        margin: 2%;
+    width: 46%;
+}
+.page_main .product_block_list li .pic_block6 .right_c_group_m {
+    display: block;
+    float: left;
+    width: 40%;
+    padding: 0;
+    margin: -1.8% auto auto -1%;
+    /*background: url(../images/part2_2_3_m.png) center center no-repeat;
+    background-size: 99% auto; */
+}
+.page_main .product_block_list li .pic_block6 .right_c_group_m a{  /*即刻登錄*/
+    display: block;
+    position: relative;
+    width: 100%;
+    margin:auto;
+    height: auto;
+}
+.page_main .product_block_list li .pic_block66 .right_c_group_m {
+    display: block;
+    float: left;
+    width: 40%;
+    padding: 0;
+    margin: -1.8% auto auto -1%;
+    /*background: url(../images/part2_2_3_m.png) center center no-repeat;
+    background-size: 99% auto; */
+}
+.page_main .product_block_list li .pic_block66 .right_c_group_m a{  /*即刻登錄*/
+    display: block;
+    position: relative;
+    width: 100%;
+    margin:auto;
+    height: auto;
+}
+.page_main .product_block_list li .pic_block7 .leftp_m,
+.page_main .product_block_list li .pic_block77 .leftp_m{
+    display: block;
+    float: none;
+    width: 100%; 
+}
+
+.page_main .product_block_list li .pic_block7 .rightp_m,
+.page_main .product_block_list li .pic_block77 .rightp_m{
+    display: block;
+    float: none;
+    width: 100%;
+        margin-top: 0%;
+    padding: 1% 1% 23% 1%;
+    margin-left: 0;
+    background: url(../images/part3_1_2_m2.png) center center no-repeat; 
+    background-size: 99% auto;
+}
+
+.page_main .product_block_list li .pic_block7 .rightp_m a {
+    display: block;
+    padding-top: 10px;
+}
+
+ 
+.page_main .product_block_list li .pic_block77 .rightp_m a{
+    display: inline-block;
+    float: left;
+    width: 35%;
+    padding-top: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+ }
+
+.page_main .product_block_list li .pic_block8 .left_a_m,
+.page_main .product_block_list li .pic_block9 .left_a_m{
+    display: block;
+    float: left;
+    width: 61%;
+    padding-right: 0.5%;
+}
+
+.page_main .product_block_list li .pic_block8 .center_b_m,
+.page_main .product_block_list li .pic_block9 .center_b_m{
+    display: block;
+    float: left;
+    width: 39%;    
+    margin:0 auto 0% -0.5%;   
+}
+
+.page_main .product_block_list li .pic_block8 .right_c_group_m{
+    display: block;
+    float: left;
+    width: 40%;
+    padding: 0;
+    margin: -10.18% auto -8% -1%; 
+   /* background: url(../images/part4_bg.png) center center no-repeat;
+    background-size: 99% auto; */
+}
+
+
+.page_main .product_block_list li .pic_block9 .right_c_group_m{
+    display: block;
+    float: left;
+    width: 39%;
+    padding: 0;
+    margin: -1.18% auto auto -0.5%;
+  /*  background: url(../images/part4_bg.png) center center no-repeat;
+    background-size: 99% auto; 
+    */
+}
+
+.page_main .product_block_list li .pic_block8 .right_c_group_m a{
+    display: block;
+    float: none;
+    padding: 21% 1%; 
+    width: 100%;
+}
+
+.page_main .product_block_list li .pic_block9 .right_c_group_m a{  /*即刻登錄*/
+    display: block;
+    position: relative;
+    width: 100%;
+    margin:auto;
+    height: auto;
+} 
+
+.page_main .product4 { 
+       margin: -39% auto 3% auto;
+}
+.page_main .product_block_list li .pic_block5 { 
+   padding: padding 4% 0.0001% 0% 0.0001%;
+}
+
+.page_main .product_block_list li .pic_block6 { 
+    padding: 0% 0.0001% 0% 0.0001%;
+}
+.page_main .product_block_list li .pic_block66 {
+    padding: 0% 0.0001% 0% 0.0001%;
+}
+.page_main .product_block_list li .pic_block7,
+.page_main .product_block_list li .pic_block77 { 
+    padding: 0% 0.0001% 0% 0.0001%;
+}
+
+
+.page_main .product_block_list li .pic_block8 {
+    padding: 0% 0.0001% 0% 0.0001%;
+}
+.page_main .product_block_list li .pic_block9 { 
+    padding: 0% 0.0001% 0% 0.0001%;
+}
+/*
+  
+.page_main .product_block_list li .pic_block6_m {
+    display: block;
+    position: absolute;
+    width: 100%;
+
+    padding: 53% 0.0001%;
+
+    left: 0;
+ 
+}
+
+*/
+.date_item{
+	width: 100%;
+	max-width: 100%;
+	background: url(../images/page_main_bg01.png) fixed;
+	text-align: center;
+}
+
+.event{ 
+	padding: 3% 0px;
+}
+.event{ 
+    margin:-9.5% auto 0 auto;
+    /*margin:2.2% auto 0 auto;*/
+}
+
+
+
+
+/*************************************************  date_item  *************************************************/
+.item2_bg .item_pic_title_bg {
+    width: 90%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+}
+.date_item ul {
+    width:100%;
+    padding: 3% 0px;
+}
+.date_item ul li {
+    position: relative;
+    width: 95%;
+    margin: 6% auto 4% auto;
+    /* background-color: #005982; */
+    background-image: url(../images/item_bg_blue.png);
+    background-size: 125% 135%;
+    background-position: center;
+    border: 3px solid #b0f9ff;
+    padding: 2px;
+}
+.date_item ul li a{
+    padding: 0;
+}
+.date_item ul li .left{
+	float: none;
+    display:block;
+    width: 100%;
+}
+.date_item ul li .right {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-top: -3%;
+    clear: both;
+}
+.date_item ul li .date {
+    display: block;
+    position: absolute;
+    margin-left: 0;
+    top: 0;
+    margin-top: -5%;
+    width: 55%;
+}
+.date_item ul li .item_left_b {
+    top: 0;
+    margin: 32% auto 0 auto;
+    width: 90%;
+}
+.date_item ul li .logo_brand {
+    right: 0;
+    position: absolute;
+    margin-right: 0%;
+    top: -1.6%;
+    width: 40%;
+}
+.date_item ul li .case {
+    margin: 2% 5% 3% auto;
+    top: 11%;
+    left: 0;
+    position: absolute;
+    width: 90%;
+}
+.date_item ul li .item_right_s{
+	display: block;
+    position: static;
+    margin: 0;
+    width: 100%;
+}
+.date_item ul li .item_right_s img{
+    width: 95%;	
+}
+.date_item ul li .item_right_s .item_right_s_left {
+    float: left;
+    width: 50%;
+    padding: 0;
+}
+
+.date_item ul li .item_right_s .item_right_s_left a,
+.date_item ul li .item_right_s .item_right_s_left a:hover{
+    padding: 0px ;
+}
+.date_item ul li .item_right_s .item_right_s_right {
+    margin-bottom: 1%;
+    width: 50%;
+}
+.date_item ul li .item_right_s .item_right_s_right a,
+.date_item ul li .item_right_s .item_right_s_right a:hover{   
+    padding: 0px ;
+}
+
+
+.item1_bg{
+    width: 100%;
+    max-width: 100%;
+    padding: 2% 0.0001%;    
+    background: url(../images/purple_bg.png) center center no-repeat;
+    background-size: auto 100%;
+}
+.item2_bg{
+    width: 100%;
+    max-width: 100%;
+    padding: 5% 0.0001% 7%;
+    /* background: url(../images/blue_bg.png) center center no-repeat; */
+    background-size: auto 100%;
+}
+ 
+ 
+/* -----------------------------------------------------
+C UI
+------------------------------------------------------- */ 
+
+.gotop a{
+	width: 50px;
+	height: 48px;
+	background-size: 90%;
+}
+.gotop a:hover{
+	width: 50px;
+	height: 60px;
+	background-size: 90%;
+}
+
+
+
+
+
+/*btnbg*/
+.btnbg { display:none; z-index:9; position:absolute; top:0px; left:0px; width:100%; height:100%; background-color: rgba(34,34,34,0.75);}
+.btnbg * { font-family: Century Gothic,"微軟正黑體"; box-sizing:border-box;}
+.btnbg  a { text-decoration:none;border: none !important;}
+/*浮層基本*/
+.btnbg .box .button {  border-top:1px solid #d6d6d6; text-align:center; font-size:1.25rem; line-height:3.5rem; font-weight:bold;}
+.btnbg .box .but-close { clear:both; width:100%;}
+.btnbg .box .but-close a { display:inline-block;  width:100%; height:100%; color:#333;border: none !important;}
+.btnbg .box h3 span.close { position:absolute; top:6px; right:5px; display:block; border:2px solid #333; border-radius:5px; width:63px; height:33px; font-size:1rem; line-height:2rem; text-align:center;}
+.btnbg .box h3 span.close a { display:inline-block; width:100%; height:100%; color:#333;border: none !important;}
+.btnbg .Boxclose { z-index:5; position:absolute; top:0px; left:0px; width:100%; height:100%; background-color: transparent;}
+
+/** mobile_menu**/
+.mobile_menu {
+    margin: 2% auto;    
+    max-width: 768px;
+    display: block;
+    z-index:10; 
+    position: fixed;
+    bottom: 10px;
+    background-color: #ffffff;
+    opacity: 0.95;
+    border-radius:3px; 
+    padding: 1%;
+    padding-bottom:13%;  
+            /*height:190px;*/
+}
+.mobile_menu * { box-sizing:border-box;}
+.mobile_menu ul{  
+   margin: 1% auto;  
+}
+.mobile_menu ul li {
+    display: inline-block;
+    width: 31%;
+    height: auto;
+    margin: 1% 0.9%;
+}
+.mobile_menu  li{ 
+    float:left; 
+    display:block;
+    margin-left:12%; 
+    margin-bottom:5%;  
+    width: 27%;
+    padding: 1%;
+    height: 50px;
+    border-radius: 50px;
+    text-align:center; 
+    color: #f153ce;
+    font-family: Century Gothic;
+    font-size: 2.1em;
+    font-weight: bold;     
+    background-color: #91337f; 
+  }
+.mobile_menu li:hover { background-color: #834aa9;}
+.mobile_menu li a {
+    color:#fff;border: none !important;
+}
+
+
+/* -----------------------------------------------------
+C Footer
+------------------------------------------------------- */ 
+footer{ 
+    font-size: 0.8rem;
+    padding: 4% 0;
+    color: #918a92;
+ }
+@media screen and (max-width:550px){
+    .page_main ul li {
+        width: 39%;
+        margin: -4.8% 5% -5% 5%;
+        padding-top: 0%;
+        padding-bottom: 8%;
+        min-width: 140px;
+    }
+    /*
+    .page_main .product_block_list li {
+        width: 32%;
+        margin: 0.2% auto;
+        min-width: 128px;
+    }
+    */
+
+    .page_main ul li .right .wordblue {
+        color: #2bedf6;
+        font-family: Century Gothic,Microsoft JhengHei;
+        font-size: 1.5em;
+        letter-spacing: -1px;
+        line-height: 1.3em;
+    }
+
+    .page_main ul li .right .wordpurple {
+        color: #f153ce;
+        font-family: Century Gothic;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    .page_main ul li .right .wordblue_s{
+            font-family: Century Gothic;
+    }
+}
+@media screen and (max-width:460px){
+   
+    .page_main ul li .right .wordblue {
+        font-size: 1.3em;
+    }
+    .page_main ul li .right .wordblue_big {
+        font-family: Century Gothic;
+        font-size: 1.3em;
+    }
+   .page_main ul li .right .wordblue_s{
+        font-family: Century Gothic;
+    }
+}
+
+@media screen and (max-width:420px){
+    .page_main ul li {
+    width: 39%;
+    margin: -5.8% 5% -6% 5%;
+    padding-top: 0%;
+    padding-bottom: 10%;
+    min-width: 130px;
+}
+
+@media screen and (max-width:370px){
+    .page_main ul li {
+    width: 39%;
+    margin: -5.8% 5% -6% 5%;
+    padding-top: 0%;
+    padding-bottom: 10%;
+    min-width: 110px;
+}
+
+/*
+    .page_main .product_block_list li{
+    width: 23%;
+    margin: 0.2% auto;
+    min-width: 132px;
+    }
+    */
+    .page_main ul li .right .wordblue {
+    color: #2bedf6;
+    font-family: Century Gothic,Microsoft JhengHei;
+    font-size: 1.1em;
+    letter-spacing: -1px;
+    line-height: 1.3em;
+   }
+    .page_main ul li .right .wordpurple {
+        color: #f153ce;
+        font-family: Century Gothic;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+       .page_main ul li .right .wordblue_s{
+            font-family: Century Gothic;
+    }
+   .page_main ul li .right .wordblue_big {
+    font-size: 1.3em;
+    }
+}
+@media screen and (max-width:401px){
+    .page_main .product_block_list li {
+    min-width: 118px;
+}
+
+}
+.fmobile { display:block !important;}
+@media screen and (max-width:767px){
+     .fmobile{ display:block !important;}
+}
+  
+@media screen and (min-width:650px){
+    .mobile_menu{
+     /* max-width:600px; */
+      margin:0 20px;
+   }
+    .mobile_menu ul{ padding:2%;}
+    .mobile_menu li{ margin-bottom:3%; max-width: 650px;}
+}
+@media screen and (min-width:600px){
+    .mobile_menu{
+     /* max-width:600px; */
+      margin:0 20px;
+  }
+    .mobile_menu ul{ padding:2%;}
+    .mobile_menu li{ margin-bottom:3%; max-width: 600px;}
+}
+@media screen and (min-width:400px){
+    .mobile_menu ul{ padding:4%;}
+    .mobile_menu li{ margin-bottom:3%;}
+}
+
+
+
+
+
+
+}
+}
+
+
+
+/* 弹窗 (background) */
+.modal1 {
+    display: none; /* 默认隐藏 */
+    position: fixed; /* 固定定位 */
+    z-index: 1; /* 设置在顶层 */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.7); 
+}
+  
+/* 弹窗内容 */
+.modal-content {
+    background-color: transparent;
+
+    margin: 5% auto; 
+    padding: 20px;
+   
+    width: 80%; 
+  overflow: hidden;
+}
+.modal-content img{
+
+    width: 100%;
+}
+  
+/* 关闭按钮 */
+.close {
+    color: #fff;
+  
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    right:10%;
+}
+  
+.close:hover,
+.close:focus {
+   color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close1 {
+    color: #fff;
+  
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    right:10%;
+}
+  
+.close1:hover,
+.close1:focus {
+   color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2 {
+    color: #fff;
+  
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    right:10%;
+}
+  
+.close2:hover,
+.close2:focus {
+   color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3 {
+    color: #fff;
+  
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    right:10%;
+}
+  
+.close3:hover,
+.close3:focus {
+   color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close4 {
+    color: #fff;
+  
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    right:10%;
+}
+  
+.close4:hover,
+.close4:focus {
+   color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and ( max-width: 575px ){
+    .cardd img{
+
+        width: 50%;
+    
+    }
+}
+    @media screen and ( max-width: 768px ){
+    .modal-content {
+      
+    
+        margin: 5% auto; 
+        padding: 20px;
+       
+        width: 100%; 
+      overflow: hidden;
+    }
+      
+/* 关闭按钮 */
+.close {
+    color: #fff;
+
+    position: absolute;
+    top: 0;
+    right:3%;
+    font-size: 32px;
+}
+  
+
+.close1 {
+    color: #fff;
+
+    position: absolute;
+    top: 0;
+    right:3%;
+    font-size: 32px;
+}
+  
+
+.close2 {
+    color: #fff;
+
+    position: absolute;
+    top: 0;
+    right:3%;
+    font-size: 32px;
+}
+  
+
+.close3 {
+    color: #fff;
+
+    position: absolute;
+    top: 0;
+    right:3%;
+    font-size: 32px;
+}
+  
+
+.close4 {
+    color: #fff;
+
+    position: absolute;
+    top: 0;
+    right:3%;
+    font-size: 32px;
+}
+
+}

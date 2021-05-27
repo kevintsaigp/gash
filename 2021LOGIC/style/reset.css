@@ -1,0 +1,22 @@
+@charset "utf-8";
+html, body, img, ul, li, a, h1, h2, h3, h4, h5, h6, p, dl, dt, dd{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	list-style: none;
+	-webkit-text-size-adjust:none;
+}
+.clearfix{
+	display: block;
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+	outline: none; /* for Firefox */
+	cursor: pointer;
+	hlbr:expression(this.onFocus=this.blur()); /* for IE */		
+}
